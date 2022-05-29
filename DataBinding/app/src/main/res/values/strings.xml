@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">disago</string>
+    <string name="price_text">price:</string>
+    <string name="price_eur_char">€</string>
+    <string name="origin_address">origin address</string>
+    <string name="destination_address">destination_address</string>
+    <string name="request_ride_btn">Request the ride</string>
+</resources>
