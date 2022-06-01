@@ -21,7 +21,8 @@ class TitleFragment : Fragment() {
         )
 
         binding.playButton.setOnClickListener { view: View ->
-            view.findNavController().navigate(R.id.gameFragment)
+            view.findNavController()
+                .navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
         }
 
         setHasOptionsMenu(true)
