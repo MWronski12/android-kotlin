@@ -42,13 +42,6 @@ class OverviewViewModel : ViewModel() {
         get() = _response
 
     /**
-     * Call getMarsRealEstateProperties() on init so we can display status immediately.
-     */
-    init {
-        getMarsRealEstateProperties()
-    }
-
-    /**
      * Sets the value of the status LiveData to the Mars API status.
      */
     private fun getMarsRealEstateProperties() {
